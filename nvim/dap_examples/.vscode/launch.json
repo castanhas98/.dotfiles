@@ -1,0 +1,40 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Rust",
+            "type": "codelldb",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "program": "${workspaceFolder}/target/debug/${workspaceFolderBasename}",
+            "stopAtEntry": true,
+            "args": []
+        },
+        {
+            "name": "Launch CPP",
+            "type": "codelldb",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "program": "${workspaceFolder}/.build/Debug/my_app",
+            "stopAtEntry": true,
+            "args": []
+        },
+        {
+            "name": "Python: Module",
+            "type": "python",
+            "request": "launch",
+            "module": "mkm_bot.main",
+            "args": ["/home/francisco/git/mkm_bot/mkm_bot/xsd/mkm_bot.xml"],
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+
+}
