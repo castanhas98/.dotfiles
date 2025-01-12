@@ -14,7 +14,7 @@ vim.keymap.set("n", "<leader>hl", ":nohlsearch<CR>")
 
 -- Move Highlighted Text Up and Down
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
-vim.keymap.set("v", "H", ":m '>-1<CR>gv=gv")
+vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 -- Keep cursor in the middle during PgUp and PgDn
 vim.keymap.set("n", "<C-d>", "<C-d>zz")

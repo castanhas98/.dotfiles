@@ -9,7 +9,6 @@ vim.keymap.set("n", "<C-p>", builtin.git_files, { desc = "Telescope git files" }
 -- There is an option (builtin.grep_string) which searches for the string under the cursor
 -- in the current working directory. May be useful for the future.
 
-
 -- Harpoon
 local mark = require("harpoon.mark")
 local ui = require("harpoon.ui")
