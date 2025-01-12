@@ -1,3 +1,3 @@
-# Dotfiles starter repository
+# .dotfiles starter repository
 
 Only contains `nvim` for now.
