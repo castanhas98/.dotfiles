@@ -1,5 +1,5 @@
 -- Lazy
-vim.keymap.set("n", "<leader>l", ":Lazy<CR>")
+vim.keymap.set("n", "<leader>l", vim.cmd.Lazy)
 
 -- Telescope
 local builtin = require('telescope.builtin')
