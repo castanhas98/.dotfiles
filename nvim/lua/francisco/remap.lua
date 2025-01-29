@@ -29,6 +29,7 @@ vim.keymap.set("x", "<leader>p", "\"_dP")
 
 -- Paste from the system clipboard
 vim.keymap.set("n", "<leader>ps", "\"+p")
+vim.keymap.set("x", "<leader>ps", "\"+p")
 
 -- Yank into + register (system clipboard)
 vim.keymap.set("n", "<leader>y", "\"+y")
